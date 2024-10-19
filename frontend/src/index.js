@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './index.css';
 import Home from './controllers/Home';
-import About from './controllers/About';
+import Abouts from './controllers/Abouts';
 import Contact from './controllers/Contact';
 import Error404 from './controllers/Error404';
 
@@ -12,7 +12,7 @@ const App = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/abouts" element={<Abouts />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<Error404 />} />
       </Routes>
