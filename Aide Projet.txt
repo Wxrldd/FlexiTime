@@ -1,0 +1,26 @@
+
+Voici un résumé des technologies pour FlexiTime en utilisant PostgreSQL :
+
+Front-end :
+React : Pour construire l'interface utilisateur, avec des composants dynamiques et réactifs.
+CSS/SCSS : Pour la gestion des styles et la création d'un design responsive.
+React Router : Pour gérer la navigation entre les pages de l'application.
+Axios ou Fetch : Pour la communication avec ton API backend.
+Back-end :
+Node.js avec Express : Pour construire l'API du serveur, gérer les requêtes HTTP et structurer la logique du back-end.
+JWT (JSON Web Tokens) : Pour l'authentification sécurisée des utilisateurs (managers et employés).
+Passport.js ou Bcrypt : Pour la gestion des stratégies d'authentification et du hachage des mots de passe.
+Base de données :
+PostgreSQL : Base de données relationnelle pour gérer les employés, les congés, les plannings, et les relations entre ces données (tables "employés", "congés", "plannings", etc.).
+Sequelize (ORM) : Pour faciliter l'interaction avec PostgreSQL depuis Node.js. Sequelize permet de gérer les modèles, les migrations et les requêtes SQL de manière plus intuitive.
+Autres outils utiles :
+NodeMailer : Pour envoyer des notifications par email (par exemple, rappels de congé, approbations, etc.).
+Heroku ou Vercel : Pour héberger l’application en production, avec un déploiement simple et rapide.
+API :
+API RESTful : Pour gérer les demandes de congés, la planification des horaires, et l’authentification des utilisateurs.
+Pourquoi PostgreSQL ?
+Relations complexes : PostgreSQL gère les relations entre les entités (employés, congés, plannings) de manière fiable.
+Transactions et intégrité des données : Assure que les données restent cohérentes et fiables, même dans un environnement transactionnel complexe.
+Analyses poussées : Parfait pour les rapports détaillés, comme les historiques de congés ou les heures travaillées, grâce à ses capacités de requêtes SQL complexes.
+Cela te donne un ensemble de technologies solide et adapté à la gestion des plannings et des congés dans une entreprise !
+
